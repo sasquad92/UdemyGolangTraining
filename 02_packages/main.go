@@ -13,4 +13,7 @@ func main() {
   fmt.Println("rectangle: ", r)
   fmt.Println("rectangle area: ", r.Area())
   fmt.Println("rectangle circ: ", r.Circ())
+  
+  fmt.Printf("%v \n", r)
+  fmt.Printf("%T \n", r)
 }
