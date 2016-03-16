@@ -90,9 +90,9 @@ func main() {
 
     Find a10^15.
     */
-    x := math.Pow10(6)
+    //x := math.Pow10(6)
     //y := math.Pow10(15)
-    fmt.Println("a^6 = ", finder(x))
+    fmt.Println("a^6 = ", finder(25))
    // fmt.Println("a10^15 = ", finder(4))
 }
 
@@ -162,3 +162,7 @@ func countDigits(number float64) float64 {
     }
     return result
 }
+// The problem is that I tried to do this with INT, but i had few problems with calculations.
+// When I calculte using FLOAT64 calculations take a long time.
+// For a25 it takes few seconds...
+// But it returns good answer :-)
