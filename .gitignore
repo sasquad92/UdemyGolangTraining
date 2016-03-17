@@ -1,3 +1,18 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore VS Code folder
+.vscode/
+
+# Ignore txt files
+*.txt
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
