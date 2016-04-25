@@ -22,7 +22,7 @@ func (c Circle) area() float64 {
 }
 
 
-// Shape is an interface that has a area() method
+// Shape is an interface that has an area() method
 type Shape interface {
 	area() float64
 }
@@ -36,9 +36,11 @@ func main() {
 	s := Squere{5}
 	c := Circle{3}
     
-// Becouse Squere and Circle have are() method they can be used as Shape
+// Becouse Squere and Circle have area() method they can be used as Shape
 	info(s)
 	info(c)
 }
 
 // Anything that has the area() methon implements Shape interface
+//
+// "Interfaces are types that just declare behavior."
