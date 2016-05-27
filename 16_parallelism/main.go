@@ -10,7 +10,7 @@ import (
 // and does some setup
 func init() {
 	// using all the CPUs
-	// no longer need to include after go 1.5 (by defoult using more than 1 core)
+	// no longer need to include after go 1.5 (by default using more than 1 core)
 	runtime.GOMAXPROCS(runtime.NumCPU())
 }
 
